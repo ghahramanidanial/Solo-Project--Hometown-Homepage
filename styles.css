@@ -1,0 +1,121 @@
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+
+
+/* Hero Section */
+  
+.hero-img {
+  background-image: url("images/perspolis.jpg");
+  background-size: 100% 100%;
+  height: 237px;
+  border-radius: 15px 15px 0 0;
+  margin: 8px 8px 0 8px;
+ padding: 2px;
+ font-family: Unlock;
+
+
+}
+#hero-title{
+    text-shadow: 2px 2px  rgb(255, 255, 255);
+    width: 200px;
+    margin: 2px auto;
+    border-radius: 15px;
+
+    
+}
+
+#hero-description{
+
+    text-shadow: 2px 2px  rgb(255, 255, 255);
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+
+/* Tourist Attractions */
+
+#tourist-attractions{
+    background: linear-gradient(#e1dfd1, #ffffff);
+     padding: 35px 100px;
+     margin: 0 8px 0 8px;
+
+
+}
+.tourist-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+
+
+.tourist-imgs {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+}
+
+.tourist-imgbox{
+width: 200px;
+height: 250px;
+margin: auto 0;
+}
+
+/* Tourist-img Hover */
+
+
+/* Card Secton */
+ 
+#card-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 297px;
+    margin: 0 8px 0 8px;
+    background: linear-gradient(#ffffff, #e1dfd1);
+    border-radius: 0 0 15px 15px;
+
+}
+
+
+#card-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    background: linear-gradient(#e1dfd1, #ffff);
+    padding: 15px;
+    border-radius: 8px;
+    border-bottom: 4px solid #2c2a29;
+    
+
+}
+
+#card-avatar{
+    margin: 0 auto;   
+}
+#avatar-img{
+    border-radius: 8px;
+    width: 200PX;
+    height: 250PX;
+}
+
+#card-guide{
+    width: 250px;
+    margin: 0 auto;
+}
+
+
